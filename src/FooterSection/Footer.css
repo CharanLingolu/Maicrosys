@@ -1,0 +1,26 @@
+.mainContainer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(12, 31, 72);
+  padding: 60px 10px;
+}
+
+.miniContainer4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.miniContainer4 a {
+  gap: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.mainContainer3 p {
+  color: white;
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.692);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+a:hover {
+  color: blue;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: rgba(93, 174, 255, 0.251);
+  padding: 20px 0;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 50px;
+  width: 100px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  scale: 1.2;
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.talkBtn {
+  margin-left: 50px;
+  padding: 20px 30px;
+  border: none;
+  background-color: blue;
+  border-radius: 30px;
+  font-weight: 550;
+  color: white;
+  font-size: 0.8em;
+  transition: all 0.3s ease-in-out;
+  animation-name: logo;
+  margin: 5px;
+}
+
+.talkBtn:hover {
+  cursor: pointer;
+  background-color: rgb(62, 62, 238);
+  transform: scale(1.03);
+}

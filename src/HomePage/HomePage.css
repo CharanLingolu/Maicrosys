@@ -1,0 +1,71 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home {
+  background-image: url('/home/ec2-user/pm_site/frontend/public/Home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100vw;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.539); 
+  width: cover;
+  height: 85vh;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.overlay h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: rgb(0, 200, 255);
+    -webkit-text-stroke: 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overlay p{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.button-wrapper {
+    display: inline-block;
+    margin: 15px;
+}
+
+.bussBtn{
+    padding: 20px 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    margin: 30px;
+    font-weight: 550;
+    color: white;
+    transition: all 0.3s ease-in;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.bussBtn:hover{
+    background-color: rgb(55, 55, 247);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.arrow{
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.bussBtn:hover .arrow{
+    padding-left: 5px;
+}
