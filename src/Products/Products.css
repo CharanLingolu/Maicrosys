@@ -1,5 +1,37 @@
-.textContainer h2{
-    text-align: center;
-    margin: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.textContainer h2 {
+  text-align: center;
+  margin: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 20px;
+}
+
+.productLogo1 {
+  height: 200px;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.productLogo2 {
+  height: 210px;
+  width: 210px;
+  margin-bottom: 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.productLogo1:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.productLogo2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }

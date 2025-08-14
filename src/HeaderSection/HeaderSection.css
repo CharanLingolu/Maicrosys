@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #007bff; /* Unified blue */
 }
 
 ul {
@@ -24,18 +24,26 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  background-color: rgba(93, 174, 255, 0.251);
+  background-color: rgba(0, 123, 255, 0.15); /* Light blue background */
   padding: 20px 0;
   width: 100%;
 }
 
+.logo-wrapper {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
 .logo {
-  margin-right: 50px;
+  margin-right: 20px;
   width: 100px;
   height: auto;
-  transition: all 0.3s ease-in-out;
-  scale: 1.2;
-  animation: slideUp 0.5s ease-out forwards;
+  transition: transform 0.3s ease-in-out;
+  scale: 1.1;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 @keyframes slideUp {
@@ -49,27 +57,70 @@ ul {
   }
 }
 
-.logo:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
 .talkBtn {
   margin-left: 50px;
   padding: 20px 30px;
   border: none;
-  background-color: blue;
+  background-color: #007bff;
   border-radius: 30px;
   font-weight: 550;
   color: white;
   font-size: 0.8em;
   transition: all 0.3s ease-in-out;
-  animation-name: logo;
   margin: 5px;
 }
 
 .talkBtn:hover {
   cursor: pointer;
-  background-color: rgb(62, 62, 238);
+  background-color: #0056b3;
   transform: scale(1.03);
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  cursor: pointer;
+  padding: 6px 12px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 10px 14px;
+  color: rgba(0, 0, 0, 0.711);
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #e5f8fd;
+  border-radius: 0 0 20px 20px;
+  color: #007bff;
+}
+
+/* Show menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }

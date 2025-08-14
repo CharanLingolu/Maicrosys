@@ -15,7 +15,7 @@ const Business = () => {
           </p>
         </div>
         <div className="miniContainer2">
-          <img src="/Ai.jpeg" alt="Ai" />
+          <img src="/Ai.png" alt="Ai" />
         </div>
       </div>
       <div className="miniContainer3">

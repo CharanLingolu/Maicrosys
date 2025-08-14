@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 20px 20px 50px;
+  margin: 100px 50px 10px 50px;
+  background-color: rgba(223, 220, 220, 0.784);
+  padding: 100px;
+  border-radius: 30px;
 }
 
 .miniContainer1 {
@@ -68,7 +71,7 @@
 .miniContainer3 button {
   padding: 20px 60px;
   border: none;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   font-weight: 600;
   border-radius: 30px;
@@ -79,6 +82,6 @@
 
 .miniContainer3 button:hover {
   cursor: pointer;
-  background-color: rgb(62, 62, 238);
+  background-color: #0056b3;
   transform: scale(1.03);
 }

@@ -9,6 +9,10 @@ const Products = () => {
           products.
         </h2>
       </div>
+      <div className="imgContainer">
+        <img className="productLogo1" src="/finLogo.png" />
+        <img className="productLogo2" src="/treatsLogo.png" />
+      </div>
     </div>
   );
 };

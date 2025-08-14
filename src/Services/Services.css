@@ -1,6 +1,6 @@
 .mainContainer1 {
   background-color: rgb(12, 31, 72);
-  padding: 50px 10px;
+  padding: 42px 10px;
 }
 
 .textContainer1 {
@@ -15,9 +15,8 @@
 }
 
 .textContainer1 h1 {
-  font-size: 40px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .textContainer1 h2 {
